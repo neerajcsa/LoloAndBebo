@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07CF15B221E6E9EF008D4E03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CF15B121E6E9EF008D4E03 /* AppDelegate.swift */; };
+		07CF15B421E6E9EF008D4E03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CF15B321E6E9EF008D4E03 /* ViewController.swift */; };
+		07CF15B721E6E9EF008D4E03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07CF15B521E6E9EF008D4E03 /* Main.storyboard */; };
+		07CF15BA21E6E9EF008D4E03 /* LoloAndBebo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 07CF15B821E6E9EF008D4E03 /* LoloAndBebo.xcdatamodeld */; };
+		07CF15BC21E6EA02008D4E03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07CF15BB21E6EA02008D4E03 /* Assets.xcassets */; };
+		07CF15BF21E6EA02008D4E03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07CF15BD21E6EA02008D4E03 /* LaunchScreen.storyboard */; };
+		07CF15CA21E6EA04008D4E03 /* LoloAndBeboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CF15C921E6EA04008D4E03 /* LoloAndBeboTests.swift */; };
+		07CF15D521E6EA04008D4E03 /* LoloAndBeboUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CF15D421E6EA04008D4E03 /* LoloAndBeboUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07CF15C621E6EA04008D4E03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07CF15A621E6E9EF008D4E03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07CF15AD21E6E9EF008D4E03;
+			remoteInfo = LoloAndBebo;
+		};
+		07CF15D121E6EA04008D4E03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07CF15A621E6E9EF008D4E03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07CF15AD21E6E9EF008D4E03;
+			remoteInfo = LoloAndBebo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07CF15AE21E6E9EF008D4E03 /* LoloAndBebo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoloAndBebo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07CF15B121E6E9EF008D4E03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		07CF15B321E6E9EF008D4E03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		07CF15B621E6E9EF008D4E03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07CF15B921E6E9EF008D4E03 /* LoloAndBebo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LoloAndBebo.xcdatamodel; sourceTree = "<group>"; };
+		07CF15BB21E6EA02008D4E03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07CF15BE21E6EA02008D4E03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07CF15C021E6EA02008D4E03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07CF15C521E6EA04008D4E03 /* LoloAndBeboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoloAndBeboTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07CF15C921E6EA04008D4E03 /* LoloAndBeboTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoloAndBeboTests.swift; sourceTree = "<group>"; };
+		07CF15CB21E6EA04008D4E03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07CF15D021E6EA04008D4E03 /* LoloAndBeboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoloAndBeboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07CF15D421E6EA04008D4E03 /* LoloAndBeboUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoloAndBeboUITests.swift; sourceTree = "<group>"; };
+		07CF15D621E6EA04008D4E03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07CF15AB21E6E9EF008D4E03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07CF15C221E6EA04008D4E03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07CF15CD21E6EA04008D4E03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07CF15A521E6E9EF008D4E03 = {
+			isa = PBXGroup;
+			children = (
+				07CF15B021E6E9EF008D4E03 /* LoloAndBebo */,
+				07CF15C821E6EA04008D4E03 /* LoloAndBeboTests */,
+				07CF15D321E6EA04008D4E03 /* LoloAndBeboUITests */,
+				07CF15AF21E6E9EF008D4E03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07CF15AF21E6E9EF008D4E03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07CF15AE21E6E9EF008D4E03 /* LoloAndBebo.app */,
+				07CF15C521E6EA04008D4E03 /* LoloAndBeboTests.xctest */,
+				07CF15D021E6EA04008D4E03 /* LoloAndBeboUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07CF15B021E6E9EF008D4E03 /* LoloAndBebo */ = {
+			isa = PBXGroup;
+			children = (
+				07CF15B121E6E9EF008D4E03 /* AppDelegate.swift */,
+				07CF15B321E6E9EF008D4E03 /* ViewController.swift */,
+				07CF15B521E6E9EF008D4E03 /* Main.storyboard */,
+				07CF15BB21E6EA02008D4E03 /* Assets.xcassets */,
+				07CF15BD21E6EA02008D4E03 /* LaunchScreen.storyboard */,
+				07CF15C021E6EA02008D4E03 /* Info.plist */,
+				07CF15B821E6E9EF008D4E03 /* LoloAndBebo.xcdatamodeld */,
+			);
+			path = LoloAndBebo;
+			sourceTree = "<group>";
+		};
+		07CF15C821E6EA04008D4E03 /* LoloAndBeboTests */ = {
+			isa = PBXGroup;
+			children = (
+				07CF15C921E6EA04008D4E03 /* LoloAndBeboTests.swift */,
+				07CF15CB21E6EA04008D4E03 /* Info.plist */,
+			);
+			path = LoloAndBeboTests;
+			sourceTree = "<group>";
+		};
+		07CF15D321E6EA04008D4E03 /* LoloAndBeboUITests */ = {
+			isa = PBXGroup;
+			children = (
+				07CF15D421E6EA04008D4E03 /* LoloAndBeboUITests.swift */,
+				07CF15D621E6EA04008D4E03 /* Info.plist */,
+			);
+			path = LoloAndBeboUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07CF15AD21E6E9EF008D4E03 /* LoloAndBebo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07CF15D921E6EA04008D4E03 /* Build configuration list for PBXNativeTarget "LoloAndBebo" */;
+			buildPhases = (
+				07CF15AA21E6E9EF008D4E03 /* Sources */,
+				07CF15AB21E6E9EF008D4E03 /* Frameworks */,
+				07CF15AC21E6E9EF008D4E03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoloAndBebo;
+			productName = LoloAndBebo;
+			productReference = 07CF15AE21E6E9EF008D4E03 /* LoloAndBebo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07CF15C421E6EA04008D4E03 /* LoloAndBeboTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07CF15DC21E6EA04008D4E03 /* Build configuration list for PBXNativeTarget "LoloAndBeboTests" */;
+			buildPhases = (
+				07CF15C121E6EA04008D4E03 /* Sources */,
+				07CF15C221E6EA04008D4E03 /* Frameworks */,
+				07CF15C321E6EA04008D4E03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07CF15C721E6EA04008D4E03 /* PBXTargetDependency */,
+			);
+			name = LoloAndBeboTests;
+			productName = LoloAndBeboTests;
+			productReference = 07CF15C521E6EA04008D4E03 /* LoloAndBeboTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		07CF15CF21E6EA04008D4E03 /* LoloAndBeboUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07CF15DF21E6EA04008D4E03 /* Build configuration list for PBXNativeTarget "LoloAndBeboUITests" */;
+			buildPhases = (
+				07CF15CC21E6EA04008D4E03 /* Sources */,
+				07CF15CD21E6EA04008D4E03 /* Frameworks */,
+				07CF15CE21E6EA04008D4E03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07CF15D221E6EA04008D4E03 /* PBXTargetDependency */,
+			);
+			name = LoloAndBeboUITests;
+			productName = LoloAndBeboUITests;
+			productReference = 07CF15D021E6EA04008D4E03 /* LoloAndBeboUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07CF15A621E6E9EF008D4E03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Neeraj Pandey";
+				TargetAttributes = {
+					07CF15AD21E6E9EF008D4E03 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					07CF15C421E6EA04008D4E03 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 07CF15AD21E6E9EF008D4E03;
+					};
+					07CF15CF21E6EA04008D4E03 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 07CF15AD21E6E9EF008D4E03;
+					};
+				};
+			};
+			buildConfigurationList = 07CF15A921E6E9EF008D4E03 /* Build configuration list for PBXProject "LoloAndBebo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07CF15A521E6E9EF008D4E03;
+			productRefGroup = 07CF15AF21E6E9EF008D4E03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07CF15AD21E6E9EF008D4E03 /* LoloAndBebo */,
+				07CF15C421E6EA04008D4E03 /* LoloAndBeboTests */,
+				07CF15CF21E6EA04008D4E03 /* LoloAndBeboUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07CF15AC21E6E9EF008D4E03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07CF15BF21E6EA02008D4E03 /* LaunchScreen.storyboard in Resources */,
+				07CF15BC21E6EA02008D4E03 /* Assets.xcassets in Resources */,
+				07CF15B721E6E9EF008D4E03 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07CF15C321E6EA04008D4E03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07CF15CE21E6EA04008D4E03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07CF15AA21E6E9EF008D4E03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07CF15B421E6E9EF008D4E03 /* ViewController.swift in Sources */,
+				07CF15B221E6E9EF008D4E03 /* AppDelegate.swift in Sources */,
+				07CF15BA21E6E9EF008D4E03 /* LoloAndBebo.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07CF15C121E6EA04008D4E03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07CF15CA21E6EA04008D4E03 /* LoloAndBeboTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07CF15CC21E6EA04008D4E03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07CF15D521E6EA04008D4E03 /* LoloAndBeboUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07CF15C721E6EA04008D4E03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07CF15AD21E6E9EF008D4E03 /* LoloAndBebo */;
+			targetProxy = 07CF15C621E6EA04008D4E03 /* PBXContainerItemProxy */;
+		};
+		07CF15D221E6EA04008D4E03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07CF15AD21E6E9EF008D4E03 /* LoloAndBebo */;
+			targetProxy = 07CF15D121E6EA04008D4E03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07CF15B521E6E9EF008D4E03 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07CF15B621E6E9EF008D4E03 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07CF15BD21E6EA02008D4E03 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07CF15BE21E6EA02008D4E03 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07CF15D721E6EA04008D4E03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		07CF15D821E6EA04008D4E03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07CF15DA21E6EA04008D4E03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LoloAndBebo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pandey.LoloAndBebo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07CF15DB21E6EA04008D4E03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LoloAndBebo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pandey.LoloAndBebo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		07CF15DD21E6EA04008D4E03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LoloAndBeboTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pandey.LoloAndBeboTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoloAndBebo.app/LoloAndBebo";
+			};
+			name = Debug;
+		};
+		07CF15DE21E6EA04008D4E03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LoloAndBeboTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pandey.LoloAndBeboTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoloAndBebo.app/LoloAndBebo";
+			};
+			name = Release;
+		};
+		07CF15E021E6EA04008D4E03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LoloAndBeboUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pandey.LoloAndBeboUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LoloAndBebo;
+			};
+			name = Debug;
+		};
+		07CF15E121E6EA04008D4E03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LoloAndBeboUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pandey.LoloAndBeboUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LoloAndBebo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07CF15A921E6E9EF008D4E03 /* Build configuration list for PBXProject "LoloAndBebo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07CF15D721E6EA04008D4E03 /* Debug */,
+				07CF15D821E6EA04008D4E03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07CF15D921E6EA04008D4E03 /* Build configuration list for PBXNativeTarget "LoloAndBebo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07CF15DA21E6EA04008D4E03 /* Debug */,
+				07CF15DB21E6EA04008D4E03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07CF15DC21E6EA04008D4E03 /* Build configuration list for PBXNativeTarget "LoloAndBeboTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07CF15DD21E6EA04008D4E03 /* Debug */,
+				07CF15DE21E6EA04008D4E03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07CF15DF21E6EA04008D4E03 /* Build configuration list for PBXNativeTarget "LoloAndBeboUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07CF15E021E6EA04008D4E03 /* Debug */,
+				07CF15E121E6EA04008D4E03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		07CF15B821E6E9EF008D4E03 /* LoloAndBebo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				07CF15B921E6E9EF008D4E03 /* LoloAndBebo.xcdatamodel */,
+			);
+			currentVersion = 07CF15B921E6E9EF008D4E03 /* LoloAndBebo.xcdatamodel */;
+			path = LoloAndBebo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 07CF15A621E6E9EF008D4E03 /* Project object */;
+}
