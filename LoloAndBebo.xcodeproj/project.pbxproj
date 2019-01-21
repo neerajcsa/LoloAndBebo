@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		07CF15B221E6E9EF008D4E03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CF15B121E6E9EF008D4E03 /* AppDelegate.swift */; };
-		07CF15B421E6E9EF008D4E03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CF15B321E6E9EF008D4E03 /* ViewController.swift */; };
 		07CF15B721E6E9EF008D4E03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07CF15B521E6E9EF008D4E03 /* Main.storyboard */; };
 		07CF15BA21E6E9EF008D4E03 /* LoloAndBebo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 07CF15B821E6E9EF008D4E03 /* LoloAndBebo.xcdatamodeld */; };
 		07CF15BC21E6EA02008D4E03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07CF15BB21E6EA02008D4E03 /* Assets.xcassets */; };
 		07CF15BF21E6EA02008D4E03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07CF15BD21E6EA02008D4E03 /* LaunchScreen.storyboard */; };
 		07CF15CA21E6EA04008D4E03 /* LoloAndBeboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CF15C921E6EA04008D4E03 /* LoloAndBeboTests.swift */; };
 		07CF15D521E6EA04008D4E03 /* LoloAndBeboUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CF15D421E6EA04008D4E03 /* LoloAndBeboUITests.swift */; };
+		9603EC4121F5909400639048 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9603EC4021F5909300639048 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 /* Begin PBXFileReference section */
 		07CF15AE21E6E9EF008D4E03 /* LoloAndBebo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoloAndBebo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07CF15B121E6E9EF008D4E03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		07CF15B321E6E9EF008D4E03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		07CF15B621E6E9EF008D4E03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		07CF15B921E6E9EF008D4E03 /* LoloAndBebo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LoloAndBebo.xcdatamodel; sourceTree = "<group>"; };
 		07CF15BB21E6EA02008D4E03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		07CF15D021E6EA04008D4E03 /* LoloAndBeboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoloAndBeboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07CF15D421E6EA04008D4E03 /* LoloAndBeboUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoloAndBeboUITests.swift; sourceTree = "<group>"; };
 		07CF15D621E6EA04008D4E03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9603EC4021F5909300639048 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +99,8 @@
 		07CF15B021E6E9EF008D4E03 /* LoloAndBebo */ = {
 			isa = PBXGroup;
 			children = (
+				9603EC3F21F5908200639048 /* HomeViewController */,
 				07CF15B121E6E9EF008D4E03 /* AppDelegate.swift */,
-				07CF15B321E6E9EF008D4E03 /* ViewController.swift */,
 				07CF15B521E6E9EF008D4E03 /* Main.storyboard */,
 				07CF15BB21E6EA02008D4E03 /* Assets.xcassets */,
 				07CF15BD21E6EA02008D4E03 /* LaunchScreen.storyboard */,
@@ -126,6 +126,14 @@
 				07CF15D621E6EA04008D4E03 /* Info.plist */,
 			);
 			path = LoloAndBeboUITests;
+			sourceTree = "<group>";
+		};
+		9603EC3F21F5908200639048 /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9603EC4021F5909300639048 /* HomeViewController.swift */,
+			);
+			path = HomeViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +267,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07CF15B421E6E9EF008D4E03 /* ViewController.swift in Sources */,
 				07CF15B221E6E9EF008D4E03 /* AppDelegate.swift in Sources */,
 				07CF15BA21E6E9EF008D4E03 /* LoloAndBebo.xcdatamodeld in Sources */,
+				9603EC4121F5909400639048 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
