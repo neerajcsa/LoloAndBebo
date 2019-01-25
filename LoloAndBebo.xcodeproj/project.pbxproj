@@ -15,6 +15,17 @@
 		07CF15CA21E6EA04008D4E03 /* LoloAndBeboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CF15C921E6EA04008D4E03 /* LoloAndBeboTests.swift */; };
 		07CF15D521E6EA04008D4E03 /* LoloAndBeboUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CF15D421E6EA04008D4E03 /* LoloAndBeboUITests.swift */; };
 		9603EC4121F5909400639048 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9603EC4021F5909300639048 /* HomeViewController.swift */; };
+		96657F0F21F594FF006C151D /* CommonService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96657F0321F594FE006C151D /* CommonService.swift */; };
+		96657F1021F594FF006C151D /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96657F0421F594FE006C151D /* LoginService.swift */; };
+		96657F1121F594FF006C151D /* GenericService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96657F0521F594FE006C151D /* GenericService.swift */; };
+		96657F1221F594FF006C151D /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96657F0621F594FE006C151D /* Constant.swift */; };
+		96657F1321F594FF006C151D /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96657F0821F594FE006C151D /* KeychainWrapper.swift */; };
+		96657F1421F594FF006C151D /* KeychainItemAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96657F0921F594FE006C151D /* KeychainItemAccessibility.swift */; };
+		96657F1521F594FF006C151D /* PathConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 96657F0B21F594FE006C151D /* PathConfig.plist */; };
+		96657F1621F594FF006C151D /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96657F0C21F594FE006C151D /* Configuration.swift */; };
+		96657F1721F594FF006C151D /* GlobalConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96657F0D21F594FF006C151D /* GlobalConfig.swift */; };
+		96657F1A21F59657006C151D /* Extension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96657F1921F59657006C151D /* Extension+String.swift */; };
+		96657F1C21F6DE25006C151D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96657F1B21F6DE25006C151D /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +60,17 @@
 		07CF15D421E6EA04008D4E03 /* LoloAndBeboUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoloAndBeboUITests.swift; sourceTree = "<group>"; };
 		07CF15D621E6EA04008D4E03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9603EC4021F5909300639048 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		96657F0321F594FE006C151D /* CommonService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonService.swift; sourceTree = "<group>"; };
+		96657F0421F594FE006C151D /* LoginService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		96657F0521F594FE006C151D /* GenericService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericService.swift; sourceTree = "<group>"; };
+		96657F0621F594FE006C151D /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		96657F0821F594FE006C151D /* KeychainWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
+		96657F0921F594FE006C151D /* KeychainItemAccessibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainItemAccessibility.swift; sourceTree = "<group>"; };
+		96657F0B21F594FE006C151D /* PathConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PathConfig.plist; sourceTree = "<group>"; };
+		96657F0C21F594FE006C151D /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		96657F0D21F594FF006C151D /* GlobalConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalConfig.swift; sourceTree = "<group>"; };
+		96657F1921F59657006C151D /* Extension+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+String.swift"; sourceTree = "<group>"; };
+		96657F1B21F6DE25006C151D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +122,20 @@
 			isa = PBXGroup;
 			children = (
 				9603EC3F21F5908200639048 /* HomeViewController */,
+				96657F0E21F594FF006C151D /* LoginViewController */,
 				07CF15B121E6E9EF008D4E03 /* AppDelegate.swift */,
+				96657F0C21F594FE006C151D /* Configuration.swift */,
+				96657F0621F594FE006C151D /* Constant.swift */,
+				96657F0D21F594FF006C151D /* GlobalConfig.swift */,
 				07CF15B521E6E9EF008D4E03 /* Main.storyboard */,
 				07CF15BB21E6EA02008D4E03 /* Assets.xcassets */,
 				07CF15BD21E6EA02008D4E03 /* LaunchScreen.storyboard */,
 				07CF15C021E6EA02008D4E03 /* Info.plist */,
 				07CF15B821E6E9EF008D4E03 /* LoloAndBebo.xcdatamodeld */,
+				96657F1821F59657006C151D /* Extension */,
+				96657F0721F594FE006C151D /* KeychainWrapper */,
+				96657F0A21F594FE006C151D /* Preferences */,
+				96657F0221F594FE006C151D /* Services */,
 			);
 			path = LoloAndBebo;
 			sourceTree = "<group>";
@@ -134,6 +164,49 @@
 				9603EC4021F5909300639048 /* HomeViewController.swift */,
 			);
 			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		96657F0221F594FE006C151D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				96657F0321F594FE006C151D /* CommonService.swift */,
+				96657F0421F594FE006C151D /* LoginService.swift */,
+				96657F0521F594FE006C151D /* GenericService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		96657F0721F594FE006C151D /* KeychainWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				96657F0821F594FE006C151D /* KeychainWrapper.swift */,
+				96657F0921F594FE006C151D /* KeychainItemAccessibility.swift */,
+			);
+			path = KeychainWrapper;
+			sourceTree = "<group>";
+		};
+		96657F0A21F594FE006C151D /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				96657F0B21F594FE006C151D /* PathConfig.plist */,
+			);
+			path = Preferences;
+			sourceTree = "<group>";
+		};
+		96657F0E21F594FF006C151D /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				96657F1B21F6DE25006C151D /* LoginViewController.swift */,
+			);
+			path = LoginViewController;
+			sourceTree = "<group>";
+		};
+		96657F1821F59657006C151D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				96657F1921F59657006C151D /* Extension+String.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				07CF15BF21E6EA02008D4E03 /* LaunchScreen.storyboard in Resources */,
+				96657F1521F594FF006C151D /* PathConfig.plist in Resources */,
 				07CF15BC21E6EA02008D4E03 /* Assets.xcassets in Resources */,
 				07CF15B721E6E9EF008D4E03 /* Main.storyboard in Resources */,
 			);
@@ -267,9 +341,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96657F1221F594FF006C151D /* Constant.swift in Sources */,
+				96657F0F21F594FF006C151D /* CommonService.swift in Sources */,
+				96657F1721F594FF006C151D /* GlobalConfig.swift in Sources */,
 				07CF15B221E6E9EF008D4E03 /* AppDelegate.swift in Sources */,
+				96657F1021F594FF006C151D /* LoginService.swift in Sources */,
 				07CF15BA21E6E9EF008D4E03 /* LoloAndBebo.xcdatamodeld in Sources */,
+				96657F1421F594FF006C151D /* KeychainItemAccessibility.swift in Sources */,
+				96657F1621F594FF006C151D /* Configuration.swift in Sources */,
+				96657F1A21F59657006C151D /* Extension+String.swift in Sources */,
+				96657F1321F594FF006C151D /* KeychainWrapper.swift in Sources */,
 				9603EC4121F5909400639048 /* HomeViewController.swift in Sources */,
+				96657F1C21F6DE25006C151D /* LoginViewController.swift in Sources */,
+				96657F1121F594FF006C151D /* GenericService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

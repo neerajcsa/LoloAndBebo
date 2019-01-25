@@ -26,10 +26,10 @@
             </objects>
             <point key="canvasLocation" x="1424.8" y="-263.11844077961024"/>
         </scene>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="fpT-aD-H9N">
             <objects>
-                <viewController storyboardIdentifier="LOGIN_ID" id="7rr-Hd-2Lg" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LOGIN_ID" id="7rr-Hd-2Lg" customClass="LoginViewController" customModule="LoloAndBebo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="orO-l7-syV">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
