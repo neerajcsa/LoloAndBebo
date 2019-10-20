@@ -7,8 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07BCC6E2235AC5E600355987 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BCC6E1235AC5E500355987 /* HomeViewController.swift */; };
+		07BCC6E3235AC5E600355987 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BCC6E1235AC5E500355987 /* HomeViewController.swift */; };
+		07BCC6E4235AC5E600355987 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BCC6E1235AC5E500355987 /* HomeViewController.swift */; };
+		07BCC6E9235C154400355987 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BCC6E8235C154300355987 /* CartViewController.swift */; };
+		07BCC6EA235C154600355987 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BCC6E8235C154300355987 /* CartViewController.swift */; };
+		07BCC6EB235C154700355987 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BCC6E8235C154300355987 /* CartViewController.swift */; };
+		07BCC6F1235C161C00355987 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BCC6F0235C161B00355987 /* ProductsViewController.swift */; };
+		07BCC6F2235C161C00355987 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BCC6F0235C161B00355987 /* ProductsViewController.swift */; };
+		07BCC6F3235C161C00355987 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BCC6F0235C161B00355987 /* ProductsViewController.swift */; };
+		07BCC6FB235C168F00355987 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BCC6FA235C168F00355987 /* ProfileViewController.swift */; };
+		07BCC6FC235C168F00355987 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BCC6FA235C168F00355987 /* ProfileViewController.swift */; };
+		07BCC6FD235C168F00355987 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BCC6FA235C168F00355987 /* ProfileViewController.swift */; };
+		07BCC6FF235C25C200355987 /* HomeCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BCC6FE235C25C000355987 /* HomeCollectionCell.swift */; };
+		07BCC700235C25C200355987 /* HomeCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BCC6FE235C25C000355987 /* HomeCollectionCell.swift */; };
+		07BCC701235C25C200355987 /* HomeCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BCC6FE235C25C000355987 /* HomeCollectionCell.swift */; };
+		07BCC703235C264C00355987 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BCC702235C264C00355987 /* HomeVC.swift */; };
+		07BCC704235C264C00355987 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BCC702235C264C00355987 /* HomeVC.swift */; };
+		07BCC705235C264C00355987 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BCC702235C264C00355987 /* HomeVC.swift */; };
 		07CF15B221E6E9EF008D4E03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CF15B121E6E9EF008D4E03 /* AppDelegate.swift */; };
-		07CF15B421E6E9EF008D4E03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CF15B321E6E9EF008D4E03 /* ViewController.swift */; };
 		07CF15B721E6E9EF008D4E03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07CF15B521E6E9EF008D4E03 /* Main.storyboard */; };
 		07CF15BA21E6E9EF008D4E03 /* LoloAndBebo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 07CF15B821E6E9EF008D4E03 /* LoloAndBebo.xcdatamodeld */; };
 		07CF15BC21E6EA02008D4E03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07CF15BB21E6EA02008D4E03 /* Assets.xcassets */; };
@@ -35,9 +52,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07BCC6E1235AC5E500355987 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		07BCC6E8235C154300355987 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		07BCC6F0235C161B00355987 /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
+		07BCC6FA235C168F00355987 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		07BCC6FE235C25C000355987 /* HomeCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionCell.swift; sourceTree = "<group>"; };
+		07BCC702235C264C00355987 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		07CF15AE21E6E9EF008D4E03 /* LoloAndBebo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoloAndBebo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07CF15B121E6E9EF008D4E03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		07CF15B321E6E9EF008D4E03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		07CF15B621E6E9EF008D4E03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		07CF15B921E6E9EF008D4E03 /* LoloAndBebo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LoloAndBebo.xcdatamodel; sourceTree = "<group>"; };
 		07CF15BB21E6EA02008D4E03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -76,6 +98,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07BCC6E0235AC51A00355987 /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				07BCC6E1235AC5E500355987 /* HomeViewController.swift */,
+				07BCC6FE235C25C000355987 /* HomeCollectionCell.swift */,
+				07BCC702235C264C00355987 /* HomeVC.swift */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		07BCC6E5235C123B00355987 /* ProductsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				07BCC6F0235C161B00355987 /* ProductsViewController.swift */,
+			);
+			path = ProductsViewController;
+			sourceTree = "<group>";
+		};
+		07BCC6E7235C12FB00355987 /* CartViewController */ = {
+			isa = PBXGroup;
+			children = (
+				07BCC6E8235C154300355987 /* CartViewController.swift */,
+			);
+			path = CartViewController;
+			sourceTree = "<group>";
+		};
+		07BCC6F9235C168F00355987 /* ProfileViewController */ = {
+			isa = PBXGroup;
+			children = (
+				07BCC6FA235C168F00355987 /* ProfileViewController.swift */,
+			);
+			path = ProfileViewController;
+			sourceTree = "<group>";
+		};
 		07CF15A521E6E9EF008D4E03 = {
 			isa = PBXGroup;
 			children = (
@@ -99,8 +155,11 @@
 		07CF15B021E6E9EF008D4E03 /* LoloAndBebo */ = {
 			isa = PBXGroup;
 			children = (
+				07BCC6F9235C168F00355987 /* ProfileViewController */,
+				07BCC6E7235C12FB00355987 /* CartViewController */,
+				07BCC6E5235C123B00355987 /* ProductsViewController */,
+				07BCC6E0235AC51A00355987 /* HomeViewController */,
 				07CF15B121E6E9EF008D4E03 /* AppDelegate.swift */,
-				07CF15B321E6E9EF008D4E03 /* ViewController.swift */,
 				07CF15B521E6E9EF008D4E03 /* Main.storyboard */,
 				07CF15BB21E6EA02008D4E03 /* Assets.xcassets */,
 				07CF15BD21E6EA02008D4E03 /* LaunchScreen.storyboard */,
@@ -259,9 +318,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07CF15B421E6E9EF008D4E03 /* ViewController.swift in Sources */,
+				07BCC6FB235C168F00355987 /* ProfileViewController.swift in Sources */,
+				07BCC703235C264C00355987 /* HomeVC.swift in Sources */,
+				07BCC6F1235C161C00355987 /* ProductsViewController.swift in Sources */,
+				07BCC6E9235C154400355987 /* CartViewController.swift in Sources */,
 				07CF15B221E6E9EF008D4E03 /* AppDelegate.swift in Sources */,
 				07CF15BA21E6E9EF008D4E03 /* LoloAndBebo.xcdatamodeld in Sources */,
+				07BCC6E2235AC5E600355987 /* HomeViewController.swift in Sources */,
+				07BCC6FF235C25C200355987 /* HomeCollectionCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +334,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				07CF15CA21E6EA04008D4E03 /* LoloAndBeboTests.swift in Sources */,
+				07BCC704235C264C00355987 /* HomeVC.swift in Sources */,
+				07BCC6EA235C154600355987 /* CartViewController.swift in Sources */,
+				07BCC6FC235C168F00355987 /* ProfileViewController.swift in Sources */,
+				07BCC6E3235AC5E600355987 /* HomeViewController.swift in Sources */,
+				07BCC700235C25C200355987 /* HomeCollectionCell.swift in Sources */,
+				07BCC6F2235C161C00355987 /* ProductsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +348,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				07CF15D521E6EA04008D4E03 /* LoloAndBeboUITests.swift in Sources */,
+				07BCC705235C264C00355987 /* HomeVC.swift in Sources */,
+				07BCC6EB235C154700355987 /* CartViewController.swift in Sources */,
+				07BCC6FD235C168F00355987 /* ProfileViewController.swift in Sources */,
+				07BCC6E4235AC5E600355987 /* HomeViewController.swift in Sources */,
+				07BCC701235C25C200355987 /* HomeCollectionCell.swift in Sources */,
+				07BCC6F3235C161C00355987 /* ProductsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +514,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LoloAndBebo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,6 +532,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LoloAndBebo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
