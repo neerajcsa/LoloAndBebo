@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="7U8-c3-YtS">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
@@ -101,7 +100,7 @@
                         <barButtonItem key="rightBarButtonItem" title="Bag" id="4Sv-2A-7wB"/>
                     </navigationItem>
                     <connections>
-                        <segue destination="Lbg-It-gSn" kind="show" id="AHY-rW-Y3N"/>
+                        <segue destination="Lbg-It-gSn" kind="show" identifier="NEW_IN" id="AHY-rW-Y3N"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h20-8j-291" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

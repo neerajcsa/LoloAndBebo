@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07BC114223615BE900810D3F /* GlobalConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BC114123615BE700810D3F /* GlobalConfig.swift */; };
+		07BC114323615BE900810D3F /* GlobalConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BC114123615BE700810D3F /* GlobalConfig.swift */; };
+		07BC114423615BE900810D3F /* GlobalConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BC114123615BE700810D3F /* GlobalConfig.swift */; };
+		07BC114723615F3300810D3F /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BC114523615F3200810D3F /* Configuration.swift */; };
+		07BC114823615F3300810D3F /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BC114523615F3200810D3F /* Configuration.swift */; };
+		07BC114923615F3300810D3F /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BC114523615F3200810D3F /* Configuration.swift */; };
+		07BC114A23615F3300810D3F /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BC114623615F3200810D3F /* Constant.swift */; };
+		07BC114B23615F3300810D3F /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BC114623615F3200810D3F /* Constant.swift */; };
+		07BC114C23615F3300810D3F /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BC114623615F3200810D3F /* Constant.swift */; };
+		07BC114F23615FA700810D3F /* Extension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BC114E23615FA700810D3F /* Extension+String.swift */; };
+		07BC115023615FA700810D3F /* Extension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BC114E23615FA700810D3F /* Extension+String.swift */; };
+		07BC115123615FA700810D3F /* Extension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BC114E23615FA700810D3F /* Extension+String.swift */; };
+		07BC1152236160FD00810D3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CF15B121E6E9EF008D4E03 /* AppDelegate.swift */; };
+		07BC1153236160FD00810D3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CF15B121E6E9EF008D4E03 /* AppDelegate.swift */; };
+		07BC11542361617500810D3F /* LoloAndBeboTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = 07CF15C521E6EA04008D4E03 /* LoloAndBeboTests.xctest */; };
+		07BC11552361617D00810D3F /* LoloAndBebo.app in Resources */ = {isa = PBXBuildFile; fileRef = 07CF15AE21E6E9EF008D4E03 /* LoloAndBebo.app */; };
+		07BC11562361618000810D3F /* LoloAndBeboUITests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = 07CF15D021E6EA04008D4E03 /* LoloAndBeboUITests.xctest */; };
 		07BCC6E2235AC5E600355987 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BCC6E1235AC5E500355987 /* HomeViewController.swift */; };
 		07BCC6E3235AC5E600355987 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BCC6E1235AC5E500355987 /* HomeViewController.swift */; };
 		07BCC6E4235AC5E600355987 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BCC6E1235AC5E500355987 /* HomeViewController.swift */; };
@@ -52,6 +69,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07BC114123615BE700810D3F /* GlobalConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalConfig.swift; sourceTree = "<group>"; };
+		07BC114523615F3200810D3F /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		07BC114623615F3200810D3F /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		07BC114E23615FA700810D3F /* Extension+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+String.swift"; sourceTree = "<group>"; };
 		07BCC6E1235AC5E500355987 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		07BCC6E8235C154300355987 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
 		07BCC6F0235C161B00355987 /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
@@ -98,6 +119,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07BC114D23615FA700810D3F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				07BC114E23615FA700810D3F /* Extension+String.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		07BCC6E0235AC51A00355987 /* HomeViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -160,11 +189,15 @@
 				07BCC6E5235C123B00355987 /* ProductsViewController */,
 				07BCC6E0235AC51A00355987 /* HomeViewController */,
 				07CF15B121E6E9EF008D4E03 /* AppDelegate.swift */,
+				07BC114623615F3200810D3F /* Constant.swift */,
+				07BC114123615BE700810D3F /* GlobalConfig.swift */,
+				07BC114523615F3200810D3F /* Configuration.swift */,
 				07CF15B521E6E9EF008D4E03 /* Main.storyboard */,
 				07CF15BB21E6EA02008D4E03 /* Assets.xcassets */,
 				07CF15BD21E6EA02008D4E03 /* LaunchScreen.storyboard */,
 				07CF15C021E6EA02008D4E03 /* Info.plist */,
 				07CF15B821E6E9EF008D4E03 /* LoloAndBebo.xcdatamodeld */,
+				07BC114D23615FA700810D3F /* Extension */,
 			);
 			path = LoloAndBebo;
 			sourceTree = "<group>";
@@ -294,6 +327,7 @@
 				07CF15BF21E6EA02008D4E03 /* LaunchScreen.storyboard in Resources */,
 				07CF15BC21E6EA02008D4E03 /* Assets.xcassets in Resources */,
 				07CF15B721E6E9EF008D4E03 /* Main.storyboard in Resources */,
+				07BC11552361617D00810D3F /* LoloAndBebo.app in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +335,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07BC11542361617500810D3F /* LoloAndBeboTests.xctest in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +343,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07BC11562361618000810D3F /* LoloAndBeboUITests.xctest in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,10 +356,14 @@
 			files = (
 				07BCC6FB235C168F00355987 /* ProfileViewController.swift in Sources */,
 				07BCC703235C264C00355987 /* HomeVC.swift in Sources */,
+				07BC114223615BE900810D3F /* GlobalConfig.swift in Sources */,
 				07BCC6F1235C161C00355987 /* ProductsViewController.swift in Sources */,
 				07BCC6E9235C154400355987 /* CartViewController.swift in Sources */,
 				07CF15B221E6E9EF008D4E03 /* AppDelegate.swift in Sources */,
+				07BC114723615F3300810D3F /* Configuration.swift in Sources */,
 				07CF15BA21E6E9EF008D4E03 /* LoloAndBebo.xcdatamodeld in Sources */,
+				07BC114F23615FA700810D3F /* Extension+String.swift in Sources */,
+				07BC114A23615F3300810D3F /* Constant.swift in Sources */,
 				07BCC6E2235AC5E600355987 /* HomeViewController.swift in Sources */,
 				07BCC6FF235C25C200355987 /* HomeCollectionCell.swift in Sources */,
 			);
@@ -333,11 +373,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07BC1152236160FD00810D3F /* AppDelegate.swift in Sources */,
 				07CF15CA21E6EA04008D4E03 /* LoloAndBeboTests.swift in Sources */,
 				07BCC704235C264C00355987 /* HomeVC.swift in Sources */,
 				07BCC6EA235C154600355987 /* CartViewController.swift in Sources */,
+				07BC114823615F3300810D3F /* Configuration.swift in Sources */,
 				07BCC6FC235C168F00355987 /* ProfileViewController.swift in Sources */,
+				07BC114323615BE900810D3F /* GlobalConfig.swift in Sources */,
 				07BCC6E3235AC5E600355987 /* HomeViewController.swift in Sources */,
+				07BC115023615FA700810D3F /* Extension+String.swift in Sources */,
+				07BC114B23615F3300810D3F /* Constant.swift in Sources */,
 				07BCC700235C25C200355987 /* HomeCollectionCell.swift in Sources */,
 				07BCC6F2235C161C00355987 /* ProductsViewController.swift in Sources */,
 			);
@@ -347,11 +392,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07BC1153236160FD00810D3F /* AppDelegate.swift in Sources */,
 				07CF15D521E6EA04008D4E03 /* LoloAndBeboUITests.swift in Sources */,
 				07BCC705235C264C00355987 /* HomeVC.swift in Sources */,
 				07BCC6EB235C154700355987 /* CartViewController.swift in Sources */,
+				07BC114923615F3300810D3F /* Configuration.swift in Sources */,
 				07BCC6FD235C168F00355987 /* ProfileViewController.swift in Sources */,
+				07BC114423615BE900810D3F /* GlobalConfig.swift in Sources */,
 				07BCC6E4235AC5E600355987 /* HomeViewController.swift in Sources */,
+				07BC115123615FA700810D3F /* Extension+String.swift in Sources */,
+				07BC114C23615F3300810D3F /* Constant.swift in Sources */,
 				07BCC701235C25C200355987 /* HomeCollectionCell.swift in Sources */,
 				07BCC6F3235C161C00355987 /* ProductsViewController.swift in Sources */,
 			);
