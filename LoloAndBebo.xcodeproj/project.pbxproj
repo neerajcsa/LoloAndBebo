@@ -22,7 +22,6 @@
 		07BC1152236160FD00810D3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CF15B121E6E9EF008D4E03 /* AppDelegate.swift */; };
 		07BC1153236160FD00810D3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CF15B121E6E9EF008D4E03 /* AppDelegate.swift */; };
 		07BC11542361617500810D3F /* LoloAndBeboTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = 07CF15C521E6EA04008D4E03 /* LoloAndBeboTests.xctest */; };
-		07BC11552361617D00810D3F /* LoloAndBebo.app in Resources */ = {isa = PBXBuildFile; fileRef = 07CF15AE21E6E9EF008D4E03 /* LoloAndBebo.app */; };
 		07BC11562361618000810D3F /* LoloAndBeboUITests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = 07CF15D021E6EA04008D4E03 /* LoloAndBeboUITests.xctest */; };
 		07BCC6E2235AC5E600355987 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BCC6E1235AC5E500355987 /* HomeViewController.swift */; };
 		07BCC6E3235AC5E600355987 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BCC6E1235AC5E500355987 /* HomeViewController.swift */; };
@@ -327,7 +326,6 @@
 				07CF15BF21E6EA02008D4E03 /* LaunchScreen.storyboard in Resources */,
 				07CF15BC21E6EA02008D4E03 /* Assets.xcassets in Resources */,
 				07CF15B721E6E9EF008D4E03 /* Main.storyboard in Resources */,
-				07BC11552361617D00810D3F /* LoloAndBebo.app in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
